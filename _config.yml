@@ -33,6 +33,7 @@ github_username:  jekyll
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,5 +56,6 @@ plugins:
 #   - vendor/ruby/
 
 # mmistake theme
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "aqua" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
